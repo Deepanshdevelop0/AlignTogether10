@@ -12,9 +12,31 @@
         
         <p>Hello Everyone </p>
         
-        <form id="myform" action="ActionServlets" method="get">
+        <form id="myform" action="action" method="get">
             <button type="submit">Register</button>
         </form>
         
+        
+        
     </body>
 </html>
+<!--
+<html>
+    <body>
+        <b>textToTExtract</b>
+        <ul>
+            <li>textToTExtract2</li>
+        </ul>
+        <p>zadadadzdadd </p>
+        <u>textToTExtract3</u>
+            <%
+                int size = 10; 
+//                        Integer.parseInt(request.getParameter("size"));
+                for (int i=0;i<size;i++) {
+            %>
+        <p>abcdefghijklmno<%=System.currentTimeMillis() %><p>
+            <%    
+            }
+            %>
+    </body>
+</html>-->
